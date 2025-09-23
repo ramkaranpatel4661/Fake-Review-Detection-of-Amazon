@@ -12,6 +12,13 @@ This project is a Flask web application that detects fake (computer-generated) r
 ![Gensim](https://img.shields.io/badge/Gensim-00A86B?logo=gensim&logoColor=white)
 
 ---
+## 🖼️ Screenshots
+
+### Home Page
+![Home Page](https://raw.githubusercontent.com/ramkaranpatel4661/Fake-Review-Detection-of-Amazon/main/assets/image%201.png)
+
+### Review Analysis
+![Review Analysis](https://raw.githubusercontent.com/ramkaranpatel4661/Fake-Review-Detection-of-Amazon/main/assets/image%202.png)
 
 ## 🚀 Features
 - 🔎 **Detect Fake Reviews**: Classifies Amazon reviews as Real or Fake  
