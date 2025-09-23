@@ -2,6 +2,8 @@
 
 This project is a Flask web application that detects fake (computer-generated) reviews for Amazon products. It uses machine learning models (Word2Vec and SVM) to classify reviews as real or fake based on their text and rating.
 
+Check out a demo on [YouTube](https://www.youtube.com/watch?v=gNCwOYrvG_U)
+
 ## 🚀 Features
 - Scrapes reviews from a given Amazon product URL
 - Preprocesses review text (cleaning, lemmatization, stemming)
