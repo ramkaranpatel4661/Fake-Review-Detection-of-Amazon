@@ -39,38 +39,50 @@ statics/              # Static files (CSS, JS)
 templates/            # HTML templates
 ```
 
-## 🛠️ Installation
-1. Clone the repository:
-   ```sh
+## 🚚 Getting Started
+
+### Prerequisites
+- Python 3.x  
+- pip (Python package manager)  
+
+### Installation
+```bash
 git clone https://github.com/ramkaranpatel4661/Fake-Review-Detection-of-Amazon.git
-cd Fake-Review-Detection-of-Amazon
-   ```
-2. Install Python dependencies:
-   ```sh
+cd Fake-Review-Detection
 pip install -r requirements.txt
-   ```
-3. Download NLTK data (required for text preprocessing):
-   ```python
-import nltk
-nltk.download('punkt')
-   ```
-   Or run:
-   ```sh
-python -c "import nltk; nltk.download('punkt')"
-   ```
 
-## ▶️ Usage
-1. Start the Flask server:
-   ```sh
+### Run the App
+
+```bash
 python app.py
-   ```
-2. Open your browser and go to `http://localhost:5000`
-3. Enter an Amazon product URL to analyze reviews
 
-## 📝 Notes
-- Make sure you have the pre-trained models (`word2vec_model.model`, `SVM_model.pkl`) in the correct location if required by your code.
-- Static files are served from the `statics/` folder.
-- HTML templates are in the `templates/` folder.
+Open your browser and go to:
+http://localhost:5000
+```
+
+## 🎯 Usage
+- Enter or paste an Amazon product URL.
+- The app scrapes and analyzes reviews.
+- Results show which reviews are **Real** or **Fake**.
+- Get AI-powered summaries for quick insights.
+
+---
+
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome!  
+Feel free to check the **issues** page.
+
+---
 
 ## 📄 License
-This project is for educational purposes.
+This project is licensed under the **MIT License**.
+
+---
+
+## 🙏 Acknowledgements
+- Scikit-learn  
+- Gensim  
+- Flask  
+- Tailwind CSS  
+- Gemini API  
+- Inspired by the need for trustworthy online shopping!
