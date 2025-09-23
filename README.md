@@ -6,12 +6,19 @@ This project is a Flask web application that detects fake (computer-generated) r
 <span style="color:darkblue; font-weight:bold;">Check out a demo on</span>  
 [![YouTube](https://img.shields.io/badge/Watch%20on-YouTube-red?logo=youtube&logoColor=white)](https://www.youtube.com/watch?v=gNCwOYrvG_U)
 
-## 🚀 Features
-- Scrapes reviews from a given Amazon product URL
-- Preprocesses review text (cleaning, lemmatization, stemming)
-- Classifies reviews using pre-trained Word2Vec and SVM models
-- Displays results in a user-friendly web interface
+![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)
+![Flask](https://img.shields.io/badge/Flask-000000?logo=flask&logoColor=white)
+![Scikit-learn](https://img.shields.io/badge/Scikit--learn-F7931E?logo=scikit-learn&logoColor=white)
+![Gensim](https://img.shields.io/badge/Gensim-00A86B?logo=gensim&logoColor=white)
 
+---
+
+## 🚀 Features
+- 🔎 **Detect Fake Reviews**: Classifies Amazon reviews as Real or Fake  
+- 🤖 **AI-Powered Summaries**: Generates concise summaries using Gemini API  
+- 🌐 **Web Scraping**: Fetches reviews directly from Amazon product pages  
+- 💡 **User-Friendly Interface**: Modern design with Tailwind CSS  
+- 🔒 **Enhances Shopping Trust**: Makes online shopping safer and smarter
 ## 📁 Project Structure
 ```
 app.py                # Main Flask application
