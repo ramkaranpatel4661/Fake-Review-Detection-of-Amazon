@@ -19,6 +19,13 @@ This project is a Flask web application that detects fake (computer-generated) r
 - 🌐 **Web Scraping**: Fetches reviews directly from Amazon product pages  
 - 💡 **User-Friendly Interface**: Modern design with Tailwind CSS  
 - 🔒 **Enhances Shopping Trust**: Makes online shopping safer and smarter
+
+## 🛠️ Built With
+- **Python** (Flask, Scikit-learn, Gensim)  
+- **HTML / JavaScript** (Tailwind CSS)  
+- **Gemini API** (AI summarization)  
+- **Web Scraping tools**
+  
 ## 📁 Project Structure
 ```
 app.py                # Main Flask application
